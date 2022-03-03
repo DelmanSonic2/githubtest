@@ -1,5 +1,5 @@
 <?php 
-require_once __DIR__ . '/src/GraphQL';
+require_once __DIR__ . '/src/GraphQL.php';
 use GraphQL;
 use GraphQL\Type\Definition\Type;
 use GraphQL\Type\Definition\ObjectType;
