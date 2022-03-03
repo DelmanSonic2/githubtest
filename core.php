@@ -1,6 +1,6 @@
 <?php 
 require_once __DIR__ . '/src/GraphQL.php';
-use GraphQL;
+use GraphQL\GraphQL;
 use GraphQL\Type\Definition\Type;
 use GraphQL\Type\Definition\ObjectType;
 $rawInput = file_get_contents('php://input');
